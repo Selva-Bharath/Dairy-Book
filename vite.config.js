@@ -9,18 +9,18 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: "Milk Monthly Calculator",
-        short_name: "MilkApp",
+        name: "Dairy-book Calculator",
+        short_name: "Dairy-book",
         description: "Milk collection monthly calculator",
         theme_color: "#ffffff",
         icons: [
           {
-            src: "/src/assets/logo.png",
+            src: "/src/public/logo.png",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/src/assets/logo.png",
+            src: "/src/public/logo.png",
             sizes: "512x512",
             type: "image/png"
           }
